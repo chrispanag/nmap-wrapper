@@ -1,14 +1,13 @@
 {
-  "name": "presence",
+  "name": "nmap",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "An nmap wrapper for nodejs",
+  "main": "./build/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npx tsc"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Christos Panagiotakopoulos <chrispanag@gmail.com>",
+  "license": "MIT",
   "devDependencies": {
     "typescript": "^3.5.1"
   },
